@@ -55,9 +55,9 @@ public class DisplayRtspActivity extends AppCompatActivity
     bRecord = findViewById(R.id.b_record);
     bRecord.setOnClickListener(this);
     etUrl = findViewById(R.id.et_rtp_url);
-    etUrl.setHint(R.string.hint_rtsp);
+    //etUrl.setHint(R.string.hint_rtsp);
     rtspDisplay = getInstance();
-
+      etUrl.setText("rtmp://a.rtmp.youtube.com/live2/58de-amh3-c7tg-5pv3");
     if (rtspDisplay.isStreaming()) {
       button.setText(R.string.stop_button);
     } else {

@@ -510,7 +510,7 @@ public class RtmpConnection implements RtmpPublisher {
         }
     }
 
-    private void handleRxPacketLoop() throws IOException {  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    private void handleRxPacketLoop() throws IOException {
         // Handle all queued received RTMP packets
         while (!Thread.interrupted()) {
             try {

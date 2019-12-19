@@ -1,0 +1,1 @@
+Android NDK: Your APP_BUILD_SCRIPT points to an unknown file: E:\Bhavik\AndroidProjects\01 DEMO\32 RTMP LiveStreaming\yasea-master\library\src\main\cpp\Android.mk    

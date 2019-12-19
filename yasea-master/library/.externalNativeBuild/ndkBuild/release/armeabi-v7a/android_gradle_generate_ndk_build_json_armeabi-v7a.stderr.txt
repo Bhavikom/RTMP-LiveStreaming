@@ -1,0 +1,6 @@
+process_begin: CreateProcess(NULL, "", ...) failed.
+E:/Bhavik/SOFTWARE/SDK/ndk-bundle/build//../build/core/add-application.mk:49: E:\Bhavik\AndroidProjects\01: No such file or directory
+E:/Bhavik/SOFTWARE/SDK/ndk-bundle/build//../build/core/add-application.mk:49: DEMO\32: No such file or directory
+E:/Bhavik/SOFTWARE/SDK/ndk-bundle/build//../build/core/add-application.mk:49: RTMP: No such file or directory
+E:/Bhavik/SOFTWARE/SDK/ndk-bundle/build//../build/core/add-application.mk:49: LiveStreaming\yasea-master\library\src\main\cpp\Application.mk: No such file or directory
+E:/Bhavik/SOFTWARE/SDK/ndk-bundle/build//../build/core/add-application.mk:88: *** Android NDK: Aborting...    .  Stop.

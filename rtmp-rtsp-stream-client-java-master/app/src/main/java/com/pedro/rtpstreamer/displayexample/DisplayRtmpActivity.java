@@ -55,7 +55,8 @@ public class DisplayRtmpActivity extends AppCompatActivity
     bRecord = findViewById(R.id.b_record);
     bRecord.setOnClickListener(this);
     etUrl = findViewById(R.id.et_rtp_url);
-    etUrl.setHint(R.string.hint_rtmp);
+    //etUrl.setHint(R.string.hint_rtmp);
+    etUrl.setText("rtmp://a.rtmp.youtube.com/live2/58de-amh3-c7tg-5pv3");
     rtmpDisplay = getInstance();
 
     if (rtmpDisplay.isStreaming()) {
